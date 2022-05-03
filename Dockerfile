@@ -1,12 +1,12 @@
-# Tags: latest, 3.5.4-debian-10-r7, 3.5.4, 3.5-debian-10, 3.5
+# Tags: latest, 3.5.4-debian-10-r8, 3.5.4, 3.5-debian-10, 3.5
 FROM bitnami/etcd:latest
-FROM bitnami/etcd:3.5.4-debian-10-r7
+FROM bitnami/etcd:3.5.4-debian-10-r8
 FROM bitnami/etcd:3.5.4
 FROM bitnami/etcd:3.5-debian-10
 FROM bitnami/etcd:3.5
 
-# Tags: 3.4.18-debian-10-r32, 3.4.18, 3.4-debian-10, 3.4
-FROM bitnami/etcd:3.4.18-debian-10-r32
+# Tags: 3.4.18-debian-10-r33, 3.4.18, 3.4-debian-10, 3.4
+FROM bitnami/etcd:3.4.18-debian-10-r33
 FROM bitnami/etcd:3.4.18
 FROM bitnami/etcd:3.4-debian-10
 FROM bitnami/etcd:3.4
@@ -14,11 +14,20 @@ FROM bitnami/etcd:3.4
 # Tags: _
 FROM bitnami/etcd:_
 
-# Tags: 3.3.27-debian-10-r31, 3.3.27, 3.3-debian-10, 3.3
-FROM bitnami/etcd:3.3.27-debian-10-r31
+# Tags: 3.3.27-debian-10-r32, 3.3.27, 3.3-debian-10, 3.3
+FROM bitnami/etcd:3.3.27-debian-10-r32
 FROM bitnami/etcd:3.3.27
 FROM bitnami/etcd:3.3-debian-10
 FROM bitnami/etcd:3.3
+
+# Tags: 3.4.18-debian-10-r32
+FROM bitnami/etcd:3.4.18-debian-10-r32
+
+# Tags: 3.3.27-debian-10-r31
+FROM bitnami/etcd:3.3.27-debian-10-r31
+
+# Tags: 3.5.4-debian-10-r7
+FROM bitnami/etcd:3.5.4-debian-10-r7
 
 # Tags: 3.4.18-debian-10-r31
 FROM bitnami/etcd:3.4.18-debian-10-r31
